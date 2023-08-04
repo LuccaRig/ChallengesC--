@@ -2,17 +2,12 @@
 #include "/home/luccarig/Documents/GitHub/AutobtzExercises/ChallengesC++/TADImplementation/Include/navmusic.h"
 #include "main.hpp"
 
-int main(){
-    
-    Lucca.AdicionarNaFila("Pink as Floyd");
-    Lucca.AdicionarNaFila("Cant Stop");
-    Lucca.AdicionarNaFila("Under the bridge");
-    Lucca.AumentarVolume();
-    Lucca.AumentarVolume();
-    Lucca.ExibirMusicaAtual();
-    Lucca.ExibirFila();
+vector<string> FilaLucca;
+NAVMUSIC Lucca = NAVMUSIC("Californication",  FilaLucca, 99);
 
-    return 0;
-}
+vector<string> FilaJoao;
+NAVMUSIC Joao = NAVMUSIC("Batphone", FilaJoao, 2);
+
+
 
 

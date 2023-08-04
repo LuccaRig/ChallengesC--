@@ -82,8 +82,5 @@ class NAVMUSIC{
         }
 
     }
-    void PularMusica(){
-        _musica_atual = _fila_musicas[0];
-        _fila_musicas.erase(_fila_musicas.begin());
-    }
+    void PularMusica();
 };
